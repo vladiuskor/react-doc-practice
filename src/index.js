@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-
-const name = 'Vlad Korobko';
-const element = <p>Hello, {name}</p>
-
-
+import App from './App';
+import {Header} from "./App";
 
 ReactDOM.render(
-    element,
+    <App />,
   document.getElementById('root')
 );
 
